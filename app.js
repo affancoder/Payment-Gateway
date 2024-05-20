@@ -2,6 +2,7 @@ require("dotenv").config();
 
 const app = require('express')();
 var http = require('http').Server(app);
+const port = 8080;
 
 const paymentRoute = require('./routes/paymentRoute');
 
